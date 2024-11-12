@@ -60,7 +60,7 @@ public class VPNHelper extends Activity {
         VPNHelper.profileIntent = VpnService.prepare(activity);
         VPNHelper.username = username;
         VPNHelper.password = password;
-        VPNHelper.name = name;
+        VPNHelper.name = name+" VPN";
         VPNHelper.bypassPackages = bypass;
 
         if (profileIntent != null) {
